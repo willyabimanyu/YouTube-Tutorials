@@ -1,12 +1,15 @@
 package main
 
 import (
-	"FirstApp-Hexagonal/pkg/adding"
-	"FirstApp-Hexagonal/pkg/rest"
-	"FirstApp-Hexagonal/pkg/storage"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/FirstApp-Hexagonal/pkg/storage"
+
+	"github.com/FirstApp-Hexagonal/pkg/rest"
+
+	"github.com/FirstApp-Hexagonal/pkg/adding"
 )
 
 func main() {

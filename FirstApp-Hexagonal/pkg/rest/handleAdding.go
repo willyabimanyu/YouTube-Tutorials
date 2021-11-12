@@ -3,7 +3,7 @@ package rest
 import (
 	"net/http"
 
-	"FirstApp-Hexagonal/pkg/adding"
+	"github.com/willyabimanyu/FirstApp-Hexagonal/pkg/adding"
 )
 
 func handleAdding(as adding.Service) func(w http.ResponseWriter, r *http.Request) {

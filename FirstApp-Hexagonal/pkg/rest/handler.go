@@ -1,7 +1,7 @@
 package rest
 
 import (
-	"FirstApp-Hexagonal/pkg/adding"
+	"github.com/willyabimanyu/FirstApp-Hexagonal/pkg/adding"
 
 	"github.com/go-chi/chi"
 )
